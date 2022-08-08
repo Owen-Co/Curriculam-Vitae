@@ -1,0 +1,70 @@
+/* This is to align the image in the centre */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+/* This is to make the image round*/
+img {
+  border-radius: 50%;
+}
+
+/*This is to align header 1 to the centre*/
+h1 { text-align: center }
+
+/*The div id was named to personal in order to put the h4 details to the right*/
+#personal {
+  position: absolute;
+  right: 250px;
+  width: 200px;
+  height: 120px;
+} 
+
+/*This is to make h2 Arial, underlined and black*/
+h2 {
+    font-style: Arial;
+    text-decoration: underline;     
+    text-decoration-color: black;
+}
+
+/*The class is created to move the dates to the right*/
+.date{text-align: right;}
+
+/*This is to make h3 italic, underlined and black*/
+h3 {
+    font-style: italic;
+    text-decoration: underline;     
+    text-decoration-color: black;  
+}
+
+/*A class called education is create to make the education details Arial, black and without text decoration*/
+.education{
+    font-style:  Arial;
+    text-decoration: none;     
+    text-decoration-color: black;  
+}
+
+/*A class called education1 is create to make the education1 details Arial, black, font size 17px and without text decoration*/
+.education1{
+    font-style: italic;
+    text-decoration: none;     
+    text-decoration-color: black;
+    font-size: 17px; 
+}
+
+/*Gives the body structure by including size variants for each parts and including colours to the body*/
+body {
+  width:500px;
+  background: linear-gradient(to right, #45b1e8 40%, white 90%);
+  padding:200px;
+  border:5px solid black;
+  margin:200px; }
+
+/*Makes the button colour black*/
+button {
+  background-color: solid black;
+  color: solid black;
+}
+
+
+
